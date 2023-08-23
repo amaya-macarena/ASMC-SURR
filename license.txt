@@ -1,0 +1,13 @@
+Copyright (c) 2021 Macarena Amaya
+The complete ASMC-SURR-HF code is Licensed under CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike 4.0 International)
+You may obtain a copy of the License at:
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode   
+
+This code uses DREAMzs, an MCMC software written by Eric Laloy and Jasper A. Vrugt that is licensed under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+You may obtain a copy of the License at:
+
+https://www.gnu.org/licenses/gpl-3.0.html
+
+For the PCE training, we relied in UQlab. Please see: https://www.uqlab.com/
