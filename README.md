@@ -10,7 +10,7 @@ becomes too large.
 This particular implementation relies on polinomial chaoes expansion (PCE) surrogates, although other types of surrogate solver can be used. 
 The PCE surrogates are trained using Uqlab https://www.uqlab.com/ . 
 
-## Test cases
+## Test case
 The test case is a synthetic ground penetrating radar tomography modified from Meles et al. (2022).
 
 ## Codes 
@@ -21,7 +21,7 @@ asmc_surr.py : main asmc code.
 asmc_func_surr.py : contain the auxiliar functions called by asmc.py.
 
 ##Note that there is a file missing called PCADATA.m (too big for github), which contains the coefficients learnt for the model principal component decomposition of this example. 
-In case you would like to reproduce the exact teste case, I can easily provide you with the file. 
+In case you would like to reproduce the exact teste case, please contact me (amayamacarena@gmail.com). 
 
 ## Performing the inversion
 Modify the user-defined parameters and run run_asmc_surr.py. 
