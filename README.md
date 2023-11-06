@@ -1,7 +1,7 @@
 # ASMC-SURR-HF
 Adaptive Sequential Monte Carlo python codes combined with surrogate solvers, for posterior inference and evidence computation.
 
-This codes correspond to the article by Amaya et al. (2023). It is a Python 3.7 implementation of the Adaptive Sequential Monte Carlo (ASMC) method (Zhou et al., 2016; algorithm 4) to estimate 
+This codes correspond to the article by Amaya et al. (Multifidelity adaptive sequential Monte Carlo applied to geophysical inversion. Submitted to Geophysical Journal International). It is a Python 3.7 implementation of the Adaptive Sequential Monte Carlo (ASMC) method (Zhou et al., 2016; algorithm 4) to estimate 
 the posterior probability density function (PDF) and the evidence (marginal likelihood) trough a Bayesian inversion. ASMC is a particle approach that relies on importance sampling over a sequence 
 of intermediate distributions (power posteriors) that link the prior and the posterior PDF. Each power posterior is approximated by updating the particle importance weights and states using a small 
 pre-defined number MCMC proposal steps. ASMC method adaptively tunes the sequence of power posteriors and performs resampling of particles when the variance of their importance weights 
